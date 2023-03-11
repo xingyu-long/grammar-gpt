@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "grammar-gpt"
+version = "0.1.0"
+description = ""
+authors = ["Xingyu Long <dev.halolong@gmail.com>"]
+readme = "README.md"
+packages = [{include = "grammar_gpt"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+twine = "^4.0.2"
+revchatgpt = {git = "git@github.com:acheong08/ChatGPT.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
