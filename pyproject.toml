@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "grammar-gpt"
-version = "0.1.0"
-description = ""
+version = "0.0.1"
+description = "A simple grammar utility for everyone by using ChatGPT"
 authors = ["Xingyu Long <dev.halolong@gmail.com>"]
 readme = "README.md"
 packages = [{include = "grammar_gpt"}]
@@ -9,7 +9,7 @@ packages = [{include = "grammar_gpt"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 twine = "^4.0.2"
-revchatgpt = {git = "git@github.com:acheong08/ChatGPT.git"}
+revchatgpt = "^3.3.4"
 
 
 [build-system]
